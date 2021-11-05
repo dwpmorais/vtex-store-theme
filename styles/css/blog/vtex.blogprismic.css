@@ -1,0 +1,86 @@
+.blog {
+    background: linear-gradient(45deg,#fffbf2,#edfffd);
+    padding: 130px 0 100px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.titleBlog {
+    font-size: 20px;
+    color: rgba(0,0,0,.35);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 12px;
+    text-align: center;
+    margin: 0;
+}
+
+.subtitleBlog {
+    font-size: 54px;
+    line-height: 1.25em;
+    flex: 0 0 75%;
+    max-width: 75%;
+    text-align: center;
+    margin: 0 auto 30px auto;
+}
+
+.gridPosts {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.posts {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 10px 40px rgb(0 0 0 / 8%);
+    margin-bottom: 50px;
+    padding: 20px 20px 60px;
+    position: relative;
+    width: 100%;
+    transition: all .5s ease-in-out;
+}
+
+.posts .imagePost {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.posts .titlePost {
+    font-size: 22px;
+    line-height: 1.2em;
+    color: #000;
+    transition: all .3s ease-in-out;
+    margin: 15px 0;
+}
+
+.posts .subtitlePost {
+    font-size: 14px;
+    line-height: 140%;
+    color: #868686;
+    font-weight: 400;
+    transition: all .3s ease-in-out;
+    margin: 0;
+    text-align: justify;
+}
+
+.posts .iconsPost {
+    font-weight: normal;
+    font-size: 0.875rem;
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    color: #797979;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.posts .iconsPost .svgPost {
+    font-size: 1.25rem;
+    margin-right: 0.5rem;
+}
