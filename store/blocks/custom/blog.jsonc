@@ -1,0 +1,12 @@
+{
+  "store.custom#blog" : {
+    "blocks": [
+      "blogprismic"
+    ]
+  },
+  "store.custom#blog-post" : {
+    "blocks": [
+      "blogprismic"
+    ]
+  }
+}

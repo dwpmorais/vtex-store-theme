@@ -9,6 +9,9 @@
     "path": "/contact-us"
   },
   "store.custom#blog-post": {
-    "path": "/blog/:slug"
+    "path": "/post/:slug"
+  },
+  "store.custom#blog": {
+    "path": "/blog/"
   }
 }
